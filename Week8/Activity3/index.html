@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API Key</title>
+</head>
+<link rel="stylesheet" href="./style.css">
+<body>
+    <main>
+        <header>Today's Weather</header>
+        <div class="container">
+            <div id="input-form">
+                <input type="text" placeholder="Type City" id="cityInput">
+                <button id="getWeatherBtn">Get Weather</button>
+            </div>
+            <div id="errorMessage">    
+            </div>
+            <div id="weatherDisplay">
+                <p><span class="label">Temperature: </span> <span id="temp-display"></span></p> 
+                <p><span class="label">Humidity:  </span><span id="humidity-display"></span> </p> 
+                <p><span class="label">Description: </span> <span id="desc-display"> </span></p>
+            </div>
+        </div>
+    </main>
+</body>
+<footer>
+
+    
+    <p>Submitted actvity in WEBSYS by Dennis:  &copy; <span id="dateContainer"></span> </p>
+</footer>
+<script src="./main.js"></script>
+</html>

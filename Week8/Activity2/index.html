@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Websys Quiz</title>
+</head>
+<link rel="stylesheet" href="./style.css">
+<body>
+    
+    <main>
+        <header>
+            My WebSys Quiz
+        </header>
+        <div id="container">
+            <div id="quest">
+                <ol class="options">1. What does HTML stand for?
+                    <ul><li><input type="radio" name="q1" value="a" id="q1-A">&nbsp;<label for="q1-A">A) HyperText Markup Language</label></li></ul>
+                    <ul><li><input type="radio" name="q1" value="b" id="q1-B">&nbsp;<label for="q1-B">B) High-Level Text Language</label></li></ul>
+                    <ul><li><input type="radio" name="q1" value="c" id="q1-C">&nbsp;<label for="q1-C">C) Hyperlink and Text Management Language</label></li></ul>
+                    <ul><li><input type="radio" name="q1" value="d" id="q1-D">&nbsp;<label for="q1-D">D) Home Tool Markup Language</label></li></ul>
+                </ol>
+                <ol class="options">2. Which CSS property is used to change the text color?
+                    <ul><li><input type="radio" name="q2" value="a" id="q2-A">&nbsp;<label for="q2-A">A) text-style</label></li></ul>
+                    <ul><li><input type="radio" name="q2" value="b" id="q2-B">&nbsp;<label for="q2-B">B) color</label></li></ul>
+                    <ul><li><input type="radio" name="q2" value="c" id="q2-C">&nbsp;<label for="q2-C">C) font-color</label></li></ul>
+                    <ul><li><input type="radio" name="q2" value="d" id="q2-D">&nbsp;<label for="q2-D">D) text-color</label></li></ul>
+                </ol>
+                <ol class="options">3. Which CSS property is used to make text bold?
+                    <ul><li><input type="radio" name="q3" value="a" id="q3-A">&nbsp;<label for="q3-A">A) text-style</label></li></ul>
+                    <ul><li><input type="radio" name="q3" value="b" id="q3-B">&nbsp;<label for="q3-B">B) bold</label></li></ul>
+                    <ul><li><input type="radio" name="q3" value="c" id="q3-C">&nbsp;<label for="q3-C">C) font-weight</label></li></ul>
+                    <ul><li><input type="radio" name="q3" value="d" id="q3-D">&nbsp;<label for="q3-D">D) font-bold</label></li></ul>
+                </ol>
+                <button id="submitBtn">Submit</button>
+            </div>
+            <div id="result">
+                <span id="grade"></span>
+            
+                <button id="btnRetake">Retake?</button>
+            </div>
+        </div>
+      
+    </main>
+</body>
+<footer>
+    <p>Submitted actvity in WEBSYS by Dennis:  &copy; <span id="dateContainer"></span> </p>
+</footer>
+<script src="./main.js"></script>
+</html>

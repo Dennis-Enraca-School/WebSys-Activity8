@@ -1,0 +1,74 @@
+body, html{
+    display: grid;
+    margin: 0;
+    height: 100vh;
+    place-items: center;
+}
+main{
+    display: grid;
+    place-items: center;
+}
+header {
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: larger;
+    margin-bottom: 5px;
+}
+.container {
+    width: auto;
+    border: 2px solid black;
+    padding: 15%;
+    background-color:rgb(17, 226, 226);
+    border-radius: 10px;
+    display: grid;
+}
+#input-form{
+    justify-items: center;
+    align-self: center; 
+    justify-self: center;
+    margin-bottom: 5%;
+}
+
+#weatherDisplay {
+    text-align: left;
+}
+
+#cityInput {
+    padding: 10px;
+    font-size: medium;
+    margin-bottom: 5px;
+    justify-self: center;
+}
+button {
+    display: flex;
+    justify-self:center;
+    background-color: #27445D;
+    padding: 5px;
+    font-size: small;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    width: auto;
+    justify-self: center;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(17, 226, 226);
+    text-align: center;
+}
+.label {
+    font-weight: bold;
+}
+
+#errorMessage {
+    color: red;
+    font-weight: 600;
+}
+
+#weatherDisplay .active{
+    display: block;
+}

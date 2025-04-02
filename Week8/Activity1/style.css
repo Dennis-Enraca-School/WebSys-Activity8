@@ -1,0 +1,72 @@
+body, html{
+    display: grid;
+    margin: 0;
+    place-items: center;
+    height: 100vh;
+}
+main {
+    max-height: 90vh;
+}
+.container {
+    width: auto;
+    border: 2px solid black;
+    padding: 2%;
+    background-color:rgb(17, 226, 226);
+    border-radius: 10px;
+    display: grid;
+    max-height: 100%;
+    max-height: 80vh;
+
+}
+#gallery {
+    height: auto;
+    max-width: 100%;
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    white-space: nowrap; 
+    justify-items: center;
+    gap: 16px;
+    align-items: center;
+}
+.image-item {
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+    flex: 0 0 auto;
+}
+.image-item img{
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    object-fit: contain;
+}
+header{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: bolder;
+}
+.controller{
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    display: flex;
+    justify-self:center;
+    background-color: #27445D;
+    padding: 5px;
+    font-size: small;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    width: auto;
+    justify-self: center;
+    margin: 5px;
+} 
+.btn:disabled {
+    opacity: .50;
+    pointer-events: none;
+}
